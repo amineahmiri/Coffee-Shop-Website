@@ -1,0 +1,88 @@
+body 
+{
+    background: rgb(58, 58, 58);
+    color: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+    
+  header 
+{
+    background-color: black;
+    background-image: url("https://images.unsplash.com/photo-1463797221720-6b07e6426c24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80");
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+}
+  
+  header a 
+{
+    color: rgb(240, 241, 238);
+    text-decoration: calibri;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+  
+  header .logo a 
+{
+    background-image: url("https://cdn.dribbble.com/users/230541/screenshots/6024596/lantilla_logos.jpg");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 350px;
+    position: relative;
+    text-indent: -9999999px;
+    top: -30px;
+    width: 400px;
+}
+  
+  nav ul 
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+  
+  nav li 
+  {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  
+  .features 
+  {
+    background-image: url("https://images.designtrends.com/wp-content/uploads/2015/11/06163551/Brown-Backgrounds3.jpg");
+    color:black
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .features figure 
+  {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+  }
+  
+  .features figure img 
+  {
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: gray 0 0 10px;
+    width: 200px;
+  }
+
+  footer {
+    background: black;
+    color: gray;
+    font-size: 12px;
+    padding: 20px 20px;
+    text-align: center;
+  }
+  
